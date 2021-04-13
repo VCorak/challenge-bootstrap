@@ -1,0 +1,30 @@
+@media only screen and (max-width: 300px) {
+  .container {
+    background-color: red;
+  }
+  
+  .small, .medium, .large {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 767px) {
+  .container {
+    background-color: green;
+  }
+  
+   .small, .medium,.large {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+  .container {
+    background-color: blue;
+  }
+  
+   .small, .medium, .large {
+    font-size: 45px;
+  }
+}
+
